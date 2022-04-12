@@ -37,7 +37,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Rapid T@g Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj için Bot, yanıtlanan iletiye kullanıcıları etiketleyerek ve /bitir yazarak etiketleme işlemi bitecek. 🤗"
+  helptext = "**Rapid T@g Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj için Bot, yanıtlanan iletiye kullanıcıları etiketleyecek ve /bitir yazarak etiketleme işlemi bitecek. /ytag Komutuyla Sadece Yöneticileri Etiketleyebilirsiniz 🤗"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 Gruba Ekle', 'https://t.me/RapidTagBot?startgroup=a'),
