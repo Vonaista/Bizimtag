@@ -165,7 +165,7 @@ async def mentionall(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"🇹🇷 - [{usr.first_name}](tg://user?id={usr.id}) \n"
+      usrtxt += f"⭐ - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in anlik_calisan:
         await event.respond("Işlem Başarıyla Durduruldu\n\n**DESTEK KANALIMIZ @RapidDestek**❌")
         return
@@ -183,7 +183,7 @@ async def mentionall(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"🇹🇷 - [{usr.first_name}](tg://user?id={usr.id}) \n"
+      usrtxt += f"⭐ - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in anlik_calisan:
         await event.respond("işlem başarıyla durduruldu❌")
         return
@@ -230,7 +230,7 @@ async def mentionall(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"**👨‍✈️ - [{usr.first_name}](tg://user?id={usr.id}) \n**"
+      usrtxt += f"**⭐ - [{usr.first_name}](tg://user?id={usr.id}) \n**"
       if event.chat_id not in tekli_calisan:
         await event.respond("**Işlem Başarıyla Durduruldu\n\n**DESTEK KANALIMIZ @RapidDestek**❌****")
         return
@@ -248,7 +248,7 @@ async def mentionall(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"👮‍♀️ - [{usr.first_name}](tg://user?id={usr.id}) \n"
+      usrtxt += f"⭐ - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in tekli_calisan:
         await event.respond("Işlem Başarıyla Durduruldu\n\n**DESTEK KANALIMIZ @RapidDestek**❌**")
         return
