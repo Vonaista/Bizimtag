@@ -8,7 +8,7 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 - [Rapid Destek](https://t.me/RapidDestek) daha fazlası için. 
 
 ### 🌀 Heroku'ya dağıtın
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Vonaista/RapidTagBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Vonaista/Bizimtag)
 
 ### 🎯 Krediler ve Diğer
 - [👑 ꏂꊰꇙꋬꈤꏂ 👑](https://t.me/EfsaneLions) Developer 👨‍💻
